@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration</title>
+</head>
+<style>
+     body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            background-color: #af4ca5;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .form-container {
+            width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        fieldset {
+            border: none;
+            margin-bottom: 15px;
+        }
+        
+</style>
+<body>
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <h2 align="center"><i><b> MOHAN BABU UNIVERSITY</b></i></h2>
+    <div class="form-container">
+        <form action="https://example.com/register" method="post">
+            <fieldset>
+
+                <label for="course">course:</label>
+                <select id="course" name="course">
+                    <option value="">select</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="v">Mechanical</option>
+                    <option value="Civil">Civil</option>
+                 </select><br>
+                 <br>
+                
+
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname"><br>
+                <br>
+                
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname"><br>
+                <br>
+                <label for="photo">photo:</label>
+                <input type="file" id="photo" name="photo" ><br>
+                <br>
+                
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" ><br>
+                <br>
+                
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select><br>
+                <br>
+
+                <label for="email">Email Address:</label>
+                <input type="text" id="email" name="email"><br>
+                <br>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="int" id="phone" name="phone"><br>
+                <br>
+            
+                <label for="academic year">Academic year:</label>
+                <input type="int" id="academic year" name="academic year"><br>
+                <br>
+            
+            </fieldset>
+            
+            <input type="submit" value="Register">
+        </form>
+        </div>
+
+</body>
+</html>

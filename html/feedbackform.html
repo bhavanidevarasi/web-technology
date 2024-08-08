@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Product Feedback Form</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            background-color: #99305fe2;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>FEEDBACK FORM</h1>
+    
+    <fieldset style="width: 400 px; height: 600px;"
+       <h2><b>Online Product Feedback Form</b></h2>
+    <p>We appreciate your feedback on our product. Please fill out the form below.</p>
+          <form action="#" method="post">
+            
+            <label for="platform purchased">platform purchased:</label>
+            <input type="platform" id="platform" name="platform" required><br>
+            <br>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <br>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <br>
+            <label for="product">Product Purchased:</label>
+            <input type="product" id="product" name="product"><br>
+            <br>
+            <label>Overall Rating:</label><br>
+                <label><input type="radio" name="satisfaction" value="1" required> 1</label>
+                <label><input type="radio" name="satisfaction" value="2"> 2</label>
+                <label><input type="radio" name="satisfaction" value="3"> 3</label>
+                <label><input type="radio" name="satisfaction" value="4"> 4</label>
+                <label><input type="radio" name="satisfaction" value="5"> 5</label><br>
+                <br>
+            <label for="features">Favorite Feature(s):</label>
+            <textarea id="features" name="features" rows="4" placeholder="What did you like most about the product?" required></textarea><br>
+            <br>
+            <label for="improvements">Suggestions for Improvement:</label>
+            <textarea id="improvements" name="improvements" rows="4" placeholder="What could be improved?" required></textarea><br>
+            <br>
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Any other feedback?" required></textarea><br>
+            <br>
+        
+            <button type="submit">Submit Feedback</button>
+        </form>
+</fieldset>
+    
+</body>
+</html>
